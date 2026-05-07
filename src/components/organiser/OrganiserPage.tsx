@@ -17,7 +17,7 @@ const OrganiserPage = () => {
   return (
     <>
       <PageHeader
-        backgroundImage="/src/assets/hero2.png"
+        backgroundImage="./src/assets/hero2.png"
         title="Host events that inspire."
         description="From underground concerts to global tech summits. GUESTLY provides the infrastructure to build, scale, and monetize your community events across Africa."
         star="The Premium Event Marketplace"

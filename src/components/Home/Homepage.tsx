@@ -25,7 +25,7 @@ const Homepage = () => {
   return (
     <>
       <PageHeader
-        backgroundImage="src/assets/herobg.jpg"
+        backgroundImage="./src/assets/herobg.jpg"
         title="Discover events that move your city, career, and community."
         description="From sold-out concerts and creator meetups to business summits and weekend experiences, Guestly helps you find what matters—or host something people remember."
         actions={heroActions}

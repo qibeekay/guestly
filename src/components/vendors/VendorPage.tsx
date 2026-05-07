@@ -18,7 +18,7 @@ const VendorPage = () => {
   return (
     <>
       <PageHeader
-        backgroundImage="/src/assets/hero1.jpg"
+        backgroundImage="./src/assets/hero1.jpg"
         title="Get booked by top organizers."
         description="Join Africa's most exclusive event service network. Show your portfolio, manage inquiries, and receive secure payments from vetted event creators."
         star="The Premium Event Marketplace"

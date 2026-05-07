@@ -157,8 +157,8 @@ export const testimonials = [
     body: "Guestly creates spaces where people feel heard, supported, and connected. I've seen how their programs bring communities together and open up real opportunities for growth.",
     name: "Emeka Obi",
     role: "TedX Lagos Organiser",
-    image: "/src/assets/thumb.png", // Poster image for video
-    video: "/src/assets/testimonial.mp4", // Actual video file
+    image: "./src/assets/thumb.png", // Poster image for video
+    video: "./src/assets/testimonial.mp4", // Actual video file
   },
   {
     id: 2,
@@ -166,8 +166,8 @@ export const testimonials = [
     body: "From ticketing to attendee engagement, everything just works. We've scaled our events 3x since switching to Guestly.",
     name: "Amara Okafor",
     role: "Afrochella Founder",
-    image: "/src/assets/thumb1.png",
-    video: "/src/assets/testimonial1.mp4",
+    image: "./src/assets/thumb1.png",
+    video: "./src/assets/testimonial1.mp4",
   },
   {
     id: 3,
@@ -175,8 +175,8 @@ export const testimonials = [
     body: "Local payment methods, multi-currency support, and an interface that actually makes sense for African organizers.",
     name: "Kofi Mensah",
     role: "Accra Tech Summit",
-    image: "/src/assets/thumb2.png",
-    video: "/src/assets/testimonial2.mp4",
+    image: "./src/assets/thumb2.png",
+    video: "./src/assets/testimonial2.mp4",
   },
 ];
 
@@ -248,15 +248,15 @@ export const setupfeatures = [
 export const services = [
   {
     name: "Catering",
-    image: "/src/assets/s1.png",
+    image: "./src/assets/s1.png",
   },
   {
     name: "Photography",
-    image: "/src/assets/s2.png",
+    image: "./src/assets/s2.png",
   },
   {
     name: "Venue",
-    image: "/src/assets/s3.png",
+    image: "./src/assets/s3.png",
   },
   {
     name: "Security",
