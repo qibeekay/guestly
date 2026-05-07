@@ -19,7 +19,7 @@ const AffliatePage = () => {
   return (
     <>
       <PageHeader
-        backgroundImage="../../../src/assets/hero2.png"
+        backgroundImage="/src/assets/hero2.png"
         title="Monetize your influence."
         description="Partner with the biggest events in Africa. Share unique referral links, track your performance in real-time, and earn industry-leading commissions on every ticket sold."
         star="The Influencer & Promoter Program"
