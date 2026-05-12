@@ -98,7 +98,7 @@ export function WhyChooseGuestly() {
                         stiffness: 300,
                         damping: 20,
                       }}
-                      className={`text-xl sm:text-[32px] font-bold transition-colors duration-300 leading-[100%]
+                      className={`text-xl sm:text-[24px] font-bold transition-colors duration-300 leading-[100%]
                         ${
                           activeIndex === index ? "text-white" : "text-gray-200"
                         }`}

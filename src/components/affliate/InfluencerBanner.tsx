@@ -78,7 +78,7 @@ export function InfluencerBanner() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.3 }}
-          className="text-3xl sm:text-4xl lg:text-6xl font-medium text-white text-center leading-[100%]"
+          className="text-3xl sm:text-4xl lg:text-5xl font-medium text-white text-center leading-[100%]"
         >
           Join Over 10K+ Influencers
         </motion.h2>

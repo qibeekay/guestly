@@ -2,14 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Eye, EyeOff } from "lucide-react";
 import Button from "../props/Button";
-import { getImageSrc } from "../../utils/imageUtils";
-import {
-  CheckIcon,
-  InfoIcon,
-  LockIcon,
-  MailIcon,
-  User1Icon,
-} from "../../utils/icons";
+import { CheckIcon, LockIcon, MailIcon } from "../../utils/icons";
 
 export function SigninForm({ onSubmit }: { onSubmit: (data: any) => void }) {
   const [showPassword, setShowPassword] = useState(false);

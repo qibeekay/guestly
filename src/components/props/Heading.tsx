@@ -8,7 +8,7 @@ interface HeadingProps {
 const Heading = ({ title, desc, element }: HeadingProps) => {
   return (
     <div className="w-full">
-      <h2 className="text-3xl sm:text-4xl md:text-[64px] font-medium text-dark tracking-[-1.4px] max-w-160">
+      <h2 className="text-3xl sm:text-4xl md:text-[50px] font-medium text-dark tracking-[-1.4px] max-w-160">
         {title}
       </h2>
       <div className="w-full flex items-center justify-between gap-6">

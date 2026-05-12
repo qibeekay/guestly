@@ -63,7 +63,7 @@ export function Testimonials() {
         >
           <motion.h2
             variants={itemVariants}
-            className="text-2xl sm:text-4xl md:text-[64px] font-medium text-dark tracking-[-1.4px] max-w-160 text-center mx-auto"
+            className="text-2xl sm:text-4xl md:text-[50px] font-medium text-dark tracking-[-1.4px] max-w-160 text-center mx-auto"
           >
             Trusted by organizers across Africa
           </motion.h2>
@@ -195,12 +195,12 @@ export function Testimonials() {
                 transition={{ duration: 0.4, ease: "easeOut" }}
               >
                 {/* Main Quote */}
-                <h3 className="text-xl sm:text-2xl mlg:text-4xl font-bold text-dark leading-[120%] mb-4">
+                <h3 className="text-xl sm:text-2xl mlg:text-3xl font-bold text-dark leading-[120%] mb-4">
                   {active.quote}
                 </h3>
 
                 {/* Body Text */}
-                <p className="text-dark text-sm sm:text-lg mlg:text-2xl font-medium leading-[150%] mb-8">
+                <p className="text-dark text-sm sm:text-lg mlg:text-xl font-medium leading-[150%] mb-8">
                   “{active.body}
                 </p>
               </motion.div>

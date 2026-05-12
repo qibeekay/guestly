@@ -64,7 +64,7 @@ function StepCard({ step, index }: { step: (typeof steps)[0]; index: number }) {
 
       {/* Content */}
       <motion.div variants={textVariants} className="mt-2 space-y-3">
-        <h3 className="text-xl sm:text-[32px] font-medium text-white">
+        <h3 className="text-xl sm:text-[24px] font-medium text-white">
           {step.title}
         </h3>
         <p className="text-white text-sm sm:text-base leading-relaxed">
@@ -109,7 +109,7 @@ export function HowItWorks() {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="text-center mb-20 sm:mb-28"
         >
-          <h2 className="text-2xl sm:text-4xl md:text-[64px] font-medium text-white tracking-[-1.4px]">
+          <h2 className="text-2xl sm:text-4xl md:text-[50px] font-medium text-white tracking-[-1.4px]">
             How Guestly Works
           </h2>
           <p className="mt-3 text-white text-sm sm:text-base leading-[25.2px] tracking-tight max-w-160 text-center mx-auto">

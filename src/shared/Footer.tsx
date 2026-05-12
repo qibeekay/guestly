@@ -83,7 +83,7 @@ export function Footer() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="text-3xl sm:text-4xl lg:text-6xl font-medium tracking-tight leading-[1.15] text-white"
+            className="text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight leading-[1.15] text-white"
           >
             Ready to host your
             <br />

@@ -57,7 +57,7 @@ export function VirtualEvents() {
           >
             <motion.h2
               variants={itemVariants}
-              className="text-3xl sm:text-4xl md:text-[64px] font-medium text-[#012E3B] tracking-[-1.4px] max-w-160"
+              className="text-3xl sm:text-4xl md:text-[50px] font-medium text-[#012E3B] tracking-[-1.4px] max-w-160"
             >
               Host anywhere. Reach everyone.
             </motion.h2>
@@ -111,7 +111,7 @@ export function VirtualEvents() {
                 <feature.icon className="w-6 h-6 sm:w-12 sm:h-12 text-[#012E3B]" />
               </motion.div>
 
-              <h3 className="text-xl sm:text-[32px] font-medium text-dark mb-1 text-center xs:text-left">
+              <h3 className="text-xl sm:text-[24px] font-medium text-dark mb-1 text-center xs:text-left">
                 {feature.title}
               </h3>
               <p className="text-sm sm:text-base text-dark text-center xs:text-left">

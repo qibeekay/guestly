@@ -74,7 +74,7 @@ function ServiceCard({ service }: { service: (typeof services)[0] }) {
       </div>
       {/* Bottom name */}
       <motion.div className="" style={{ translateZ: "50px" }}>
-        <h3 className="text-xl sm:text-[32px] font-medium text-dark group-hover:text-lime transition-colors duration-300 leading-[100%] mt-4 tracking-[-1px]">
+        <h3 className="text-xl sm:text-[24px] font-medium text-dark group-hover:text-lime transition-colors duration-300 leading-[100%] mt-4 tracking-[-1px]">
           {service.name}
         </h3>
       </motion.div>

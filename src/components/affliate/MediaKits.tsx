@@ -98,7 +98,7 @@ export function MediaKits() {
             {/* Heading */}
             <motion.h2
               variants={itemVariants}
-              className="text-4xl sm:text-5xl lg:text-[82.09px] font-medium text-dark tracking-[-1.4px] leading-[1.1] sm:leading-22.5"
+              className="text-4xl sm:text-5xl lg:text-[72px] font-medium text-dark tracking-[-1.4px] leading-[1.1] sm:leading-22.5"
             >
               Automated Media Kits
             </motion.h2>

@@ -96,7 +96,7 @@ function EventCard({ event }: { event: (typeof events)[0] }) {
 
       {/* Text Info Below */}
       <div className="mt-4 space-y-2 transform transition-transform duration-300 group-hover:translate-y-1">
-        <h3 className="text-2xl sm:text-[32px] font-medium text-dark transition-colors duration-300">
+        <h3 className="text-xl sm:text-[24px] font-medium text-dark transition-colors duration-300">
           {event.title}
         </h3>
         <p className="text-sm sm:text-base text-dark sm:leading-[25.2px]">

@@ -89,7 +89,7 @@ const AISection = () => {
         {/* Heading */}
         <motion.h1
           variants={itemVariants}
-          className="text-[32px] text-center sm:text-5xl md:text-[64px] text-white font-medium relative"
+          className="text-[32px] text-center sm:text-4xl md:text-[50px] text-white font-medium relative"
         >
           <motion.span
             className="inline-block"

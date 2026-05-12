@@ -66,10 +66,10 @@ export function Sections({ features }: SectionProps) {
                 <feature.icon className="text-dark transition-colors duration-300 w-6 h-6 sm:w-12 sm:h-12" />
               </motion.div>
 
-              <h3 className="text-xl sm:text-4xl font-medium text-dark mb-3 leading-[100%] tracking-[-1px]">
+              <h3 className="text-xl sm:text-3xl font-medium text-dark mb-3 leading-[100%] tracking-[-1px]">
                 {feature.title}
               </h3>
-              <p className="text-dark text-sm sm:text-xl leading-[150%]">
+              <p className="text-dark text-sm sm:text-[18px] leading-[150%]">
                 {feature.description}
               </p>
             </motion.div>
